@@ -16,10 +16,13 @@ public class Calculadora {
         Suma suma = new Suma();
        
         Multiplicacion multiplicacion = new Multiplicacion();
-
+        
+        Resta calcular = new Resta();
        System.out.println("Suma: " + suma.suma(a, b));
        
         System.out.println("Multiplicacion: " + multiplicacion.calcular(a, b));
+        
+        System.out.println("Resta: " + calcular.calcular(a,b));
 
     }
 }
