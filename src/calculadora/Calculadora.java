@@ -24,7 +24,7 @@ public class Calculadora {
        
             Multiplicacion multiplicacion = new Multiplicacion();
         
-            Resta calcular = new Resta();
+            Resta resta = new Resta();
         
             System.out.println("--------------------> RESULTADOS <---------------------");
             
@@ -32,7 +32,7 @@ public class Calculadora {
             System.out.println("Resultado de la suma: " + suma.suma(a, b));
             
             System.out.println();
-            System.out.println("Resultado de la resta: " + calcular.calcular(a,b));
+            System.out.println("Resultado de la resta: " + resta.calcular(a,b));
             
             System.out.println();
             System.out.println("Resultado de la multiplicacion: " + multiplicacion.calcular(a, b));
