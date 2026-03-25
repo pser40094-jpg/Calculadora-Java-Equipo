@@ -13,11 +13,11 @@ public class Calculadora {
         System.out.println("Ingrese el segundo número:");
         int b = sc.nextInt();
 
-//        Suma suma = new Suma();
+          Suma suma = new Suma();
 //       
 //        Multiplicacion multiplicacion = new Multiplicacion();
 //
-//        System.out.println("Suma: " + suma.calcular(a, b));
+       System.out.println("Suma: " + suma.suma(a, b));
 //       
 //        System.out.println("Multiplicación: " + multiplicacion.calcular(a, b));
 
