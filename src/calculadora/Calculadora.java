@@ -11,7 +11,7 @@ public class Calculadora {
 
             System.out.println("--------------------> CALCULADORA <--------------------");
             System.out.println();
-            System.out.println("Ingresar solo numeros enteros");
+            System.out.println("----> Ingresar solo numeros enteros...");
             System.out.println();
         
             System.out.println("Ingrese el primer numero:");
